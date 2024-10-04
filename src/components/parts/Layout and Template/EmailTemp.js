@@ -215,7 +215,7 @@ const EmailTemp = ({
           </Image>
           <Title color={TextColor}>EMAIL TEMPLATES</Title>
           <Btn>
-            <AddButton icon="AddBackgroundBlue" title="Add New" height={true} />
+            <AddButton icon="AddBackgroundBlue" title="Add New"  />
           </Btn>
         </TitleSection>
         <Section1>

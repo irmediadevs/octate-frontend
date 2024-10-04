@@ -107,7 +107,7 @@ const JornalTables = ({
 
       {value ? (
         <Wrapper10 id="Attachment">
-          <AgGridTable2 Height={true} rowData={RowData} colDefs={ColData} />
+          <AgGridTable2  rowData={RowData} colDefs={ColData} />
         </Wrapper10>
       ) : null}
       <Line />

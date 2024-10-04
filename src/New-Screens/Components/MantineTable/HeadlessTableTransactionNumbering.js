@@ -298,11 +298,7 @@ const HeadlessTableTransactionNumbering = ({
         borderLeft: "5px solid lightgrey",
       },
     },
-    mantineTableFooterCellProps: {
-      sx: {
-        backgroundColor: "transparent",
-      },
-    },
+    
     mantineTableFooterRowProps: {
       sx: {
         backgroundColor: "transparent",

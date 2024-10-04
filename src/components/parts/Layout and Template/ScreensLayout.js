@@ -117,7 +117,7 @@ const ScreensLayout = ({
           </Image>
           <Title color={TextColor}>SCREEN LAYOUT</Title>
           <Btn>
-            <AddButton icon="AddBackgroundBlue" title="Add New" height={true} />
+            <AddButton icon="AddBackgroundBlue" title="Add New"  />
           </Btn>
         </TitleSection>
         <Section1>

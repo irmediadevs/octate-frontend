@@ -156,6 +156,7 @@ const OpenNav = ({
           return (
             <NavButton
               title={keys[item.title]}
+              key={index}
               icon={item.icon}
               icColor={colorList[index]}
               onOptionClick={onOptionClick}

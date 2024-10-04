@@ -13,8 +13,8 @@ const NavHandle = ({ startCol, endCol }) => {
       {/* #2f5bb1 */}
       <defs>
         <linearGradient id="gradient1" x1="0%" y1="50%" x2="100%" y2="50%">
-          <stop offset="0%" stop-color={startCol} />
-          <stop offset="100%" stop-color={endCol} />
+          <stop offset="0%" stopColor={startCol} />
+          <stop offset="100%" stopColor={endCol} />
         </linearGradient>
       </defs>
       <g filter="url(#filter0_b_5186_62018)">

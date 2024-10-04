@@ -2,8 +2,8 @@
   <defs>
     <!-- Define the linear gradient to match the CSS -->
     <linearGradient id="gradient1" x1="0%" y1="50%" x2="100%" y2="50%">
-      <stop offset="0%" stop-color="#2ED3B7"/>
-      <stop offset="100%" stop-color="#15B79E"/>
+      <stop offset="0%" stopColor="#2ED3B7"/>
+      <stop offset="100%" stopColor="#15B79E"/>
     </linearGradient>
   </defs>
   <g filter="url(#filter0_b_5186_62018)">

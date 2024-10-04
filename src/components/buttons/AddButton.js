@@ -88,7 +88,8 @@ const AddButton = (props) => {
   const sBlue = "blue";
   const sGrey = "grey";
   const themeKeys = useSelector((state) => state.localization.themeKeys);
-  const IconUrl = require(`../../assets2/ButtonIcons/${props.icon}.svg`);
+  const IconUrl = import(`../../assets2/ButtonIcons/${props.icon}.svg`).then((module) => module.default);
+
 
   const getBtnColor = () =>
     props.color === sBlue ? themeKeys.primary : themeKeys.c20;

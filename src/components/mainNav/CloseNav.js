@@ -12,7 +12,7 @@ import {
   IndigoHideNav,
   IndigoCloseNavHandle,
   RoseCloseNavHandle,
-  SpaceNavHandle,
+
   SpaceCloseNavHandle,
   MidnightCloseNavHandle,
   AuroraCloseNavHandle,

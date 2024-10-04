@@ -359,7 +359,7 @@ const CostCenter = ({ ToasterSegment, ToasterCostCenter }) => {
           SegmentNames={segmentName}
           ToasterCostCenter={ToasterSegment}
           ToasterSegment={ToasterCostCenter}
-          Height={true}
+          
         />
       ) : null}
       {/* <div style={{ margin: "10px 0" }}>

@@ -22,8 +22,8 @@ const MainNavHandle = ({ startCol, endCol }) => {
           y2="47"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color={startCol} />
-          <stop offset="1" stop-color={endCol} />
+          <stop stopColor={startCol} />
+          <stop offset="1" stopColor={endCol} />
           {/* #53B1FD */}
           {/* #2E90FA */}
         </linearGradient>

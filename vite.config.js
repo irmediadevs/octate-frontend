@@ -6,8 +6,9 @@ export default defineConfig({
   base: "/",
   plugins: [react()],
   esbuild: {
-    loader: "jsx", // Use JSX loader for .js files
-    include: /\.(js|jsx)$/, // Apply to both .js and .jsx files
-    exclude: /node_modules/,
+    // Correct usage of the `esbuild` loader for .js files with JSX
+    loader: "jsx", // Treat both .js and .jsx as JSX
+    include: /src\/.*\.[jt]sx?$/, // Apply to JavaScript and TypeScript files in src folder
+    exclude: /node_modules/, // Exclude node_modules by default
   },
 });

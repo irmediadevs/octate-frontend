@@ -216,7 +216,7 @@ const FormsLayout = ({
           </Image>
           <Title color={TextColor}>FORMS LAYOUT</Title>
           <Btn>
-            <AddButton icon="AddBackgroundBlue" title="Add New" height={true} />
+            <AddButton icon="AddBackgroundBlue" title="Add New"  />
           </Btn>
         </TitleSection>
         <Section1>

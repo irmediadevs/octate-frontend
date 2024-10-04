@@ -187,7 +187,7 @@ const Image = styled.div`
 `;
 const CardDashboard = (props) => {
   const themeKeys = useSelector((state) => state.localization.themeKeys);
-  const iconsrc = require(`../../assets2/DashboardCardIcons/${props.icon}.svg`);
+  const iconsrc = import(`../../assets2/DashboardCardIcons/${props.icon}.svg`).then((module) => module.default);
   const keys = useSelector((state) => state.localization.keys);
   const getPercentColor = () => {
     let itemColor = themeKeys.c11;

@@ -212,7 +212,7 @@ const Delivery = ({ setColor }) => {
           </Image>
           <Title textColor={setColor}>{keys.KEY100234}</Title>
           <Btn>
-            <AddButton icon="AddBackgroundBlue" title="Add New" height={true} />
+            <AddButton icon="AddBackgroundBlue" title="Add New" />
           </Btn>
         </TitleSection>
         <Section1>
