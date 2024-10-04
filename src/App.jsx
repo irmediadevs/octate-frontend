@@ -12,12 +12,12 @@ import "../src/components/Loader/Loader.css";
 // Lazy load components
 const LoginScreen = lazy(() => import("./AuthScreens/LoginScreen"));
 const LoginPassword = lazy(() => import("./AuthScreens/LoginPassword"));
-const Navigator = lazy(() => import("../src/Navigator/Navigator"));
+const Navigator = lazy(() => import("./Navigator/Navigator"));
 
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/signin",
       element: (
         <Suspense
           fallback={
@@ -45,7 +45,7 @@ function App() {
       ),
     },
     {
-      path: "/:companyName/home",
+      path: "/",
       element: (
         <ProtectedRoute>
           <Suspense

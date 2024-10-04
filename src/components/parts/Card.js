@@ -47,13 +47,12 @@ const Text3 = styled.div`
 `;
 
 const Card = (props) => {
-  const iconsrc = require(`../../assets2/ChartOfAccountNew/${props.icon}.svg`);
-
+  
   return (
     <>
       <Wrapper>
         <Image Background={props.Background}>
-          <img src={iconsrc} alt="swsw" />
+          <img src={`../../assets2/ChartOfAccountNew/${props.icon}.svg`} alt="swsw" />
           <Text1>{props.icontitle}</Text1>
         </Image>
         <Title2>

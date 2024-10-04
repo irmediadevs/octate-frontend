@@ -307,13 +307,7 @@ const MRTTableListScreens = ({
         color: "black",
       },
     },
-    mantineTableHeadCellProps: {
-      sx: {
-        "&[data-tooltip]::before": {
-          display: "none",
-        },
-      },
-    },
+
     mantineColumnActionsMenuProps: {
       sx: {
         "&[data-tooltip]::before": {
@@ -359,6 +353,9 @@ const MRTTableListScreens = ({
     },
     mantineTableHeadCellProps: {
       sx: {
+        "&[data-tooltip]::before": {
+          display: "none",
+        },
         boxShadow:
           "4px 0 8px -2px rgba(0, 0, 0, 0.2), 4px 0 8px -2px rgba(0, 0, 0, 0.2)",
         "& .mantine-TableHeadCell-Content:first-of-type": {

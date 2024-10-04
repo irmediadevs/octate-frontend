@@ -44,7 +44,6 @@ export const AppProvider = ({ children }) => {
         setMaxModal,
         setClose,
         close,
-        setClose,
         isShow,
         setIsShow,
         minimize,
